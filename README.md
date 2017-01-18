@@ -39,7 +39,7 @@ grunt.initConfig({
 	test: {}
   },
 
-  watch: {
+  chokidar: {
     app: { ... },
 	lib: { ... },
 	test: { ... },
