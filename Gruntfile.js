@@ -1,8 +1,9 @@
 /*
- * grunt-focus
- * https://github.com/joeytrapp/grunt-focus
+ * grunt-focus-chokidar
+ * https://github.com/tgorgdotcom/grunt-focus-chokidar
  *
  * Copyright (c) 2013 Joey Trapp
+ * Copyright (c) 2017 Thomas Gorgolione
  * Licensed under the MIT license.
  */
 
@@ -58,7 +59,7 @@ module.exports = function(grunt) {
   // plugin's task(s), then test the result.
   grunt.registerTask('test', ['clean', /*'focus', */'nodeunit']);
 
-  grunt.registerTask('autotest', ['watch:default']);
+  grunt.registerTask('autotest', ['chokidar:default']);
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['jshint', 'test']);
