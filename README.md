@@ -72,4 +72,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 * 2013-07-08: **0.1.0** Initial release of grunt-focus
 * 2013-07-08: **0.1.1** Added gruntplugin keyword to get into grunt plugin repo
-* 2013-07-08: **0.1.2** Small modifications to create grunt-focus-chokidar
+* 2016-04-06: **1.0.0** 1.0 Release
+* 2017-01-18: **1.0.1** Small modifications to create grunt-focus-chokidar
