@@ -1,23 +1,23 @@
 {
-  "name": "grunt-focus",
-  "description": "Focus and run a subset of watch targets",
+  "name": "grunt-focus-chokidar",
+  "description": "Focus and run a subset of chokidar targets",
   "version": "1.0.0",
-  "homepage": "https://github.com/joeytrapp/grunt-focus",
+  "homepage": "https://github.com/tgorgdotcom/grunt-focus-chokidar",
   "author": {
-    "name": "Joey Trapp",
-    "email": "jtrapp07@gmail.com"
+    "name": "Thomas Gorgolione",
+    "email": "thomas@tgorg.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/joeytrapp/grunt-focus.git"
+    "url": "git://github.com/tgorgdotcom/grunt-focus-chokidar.git"
   },
   "bugs": {
-    "url": "https://github.com/joeytrapp/grunt-focus/issues"
+    "url": "https://github.com/tgorgdotcom/grunt-focus-chokidar/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/joeytrapp/grunt-focus/blob/master/LICENSE-MIT"
+      "url": "https://github.com/tgorgdotcom/grunt-focus-chokidar/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
@@ -32,18 +32,17 @@
     "grunt-contrib-clean": "~0.4.0",
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt": "~0.4.1",
-    "grunt-contrib-watch": "~0.4.4"
+    "grunt-chokidar": "~0.4.4"
   },
   "peerDependencies": {
     "grunt": ">=0.4.0"
   },
   "keywords": [
-    "focus",
-    "grunt-focus",
+    "focus-chokidar",
+    "grunt-focus-chokidar",
     "watchers",
     "grunt",
-    "watch",
-    "grunt-contrib-watch",
+    "chokidar",
     "gruntplugin"
   ]
 }
