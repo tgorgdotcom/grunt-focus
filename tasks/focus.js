@@ -12,7 +12,7 @@ var ObjectFilter = require('../lib/object_filter');
 
 module.exports = function(grunt) {
   grunt.registerMultiTask('focus', 'Your task description goes here.', function() {
-    var watchers = grunt.config.get('watch');
+    var watchers = grunt.config.get('chokidar');
 
     if (typeof watchers !== 'object') {
       grunt.fail.warn('watch config must be defined and be an object');
@@ -24,7 +24,7 @@ module.exports = function(grunt) {
         filteredWatchers = filter.process(watchers);
 
     filteredWatchers.options = options || {};
-    grunt.config.set('watch', filteredWatchers);
-    grunt.task.run(['watch']);
+    grunt.config.set('chokidar', filteredWatchers);
+    grunt.task.run(['chokidar']);
   });
 };
