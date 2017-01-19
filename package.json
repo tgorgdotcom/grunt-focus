@@ -7,6 +7,12 @@
     "name": "Thomas Gorgolione",
     "email": "thomas@tgorg.com"
   },
+  "contributors": [
+    {
+      "name": "Joey Trapp",
+      "email": "jtrapp07@gmail.com"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/tgorgdotcom/grunt-focus-chokidar.git"
@@ -32,7 +38,7 @@
     "grunt-contrib-clean": "~0.4.0",
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt": "~0.4.1",
-    "grunt-chokidar": "~0.4.4"
+    "grunt-chokidar": "~1.0.0"
   },
   "peerDependencies": {
     "grunt": ">=0.4.0"

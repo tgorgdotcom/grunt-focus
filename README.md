@@ -55,6 +55,18 @@ grunt.registerTask('dev', ['dev_task', 'focus:dev']);
 grunt.registerTask('autotest', ['dev_task', 'test_task', 'focus:test']);
 ```
 
+If you use an autoloading plugin, such as `load-grunt-config` and `jitGrunt`, you'll need to staticially map the grunt-focus-chokidar module to focus:
+```js
+require('load-grunt-config')(grunt, {
+   ...
+   jitGrunt: {
+      staticMappings: {
+         focus: 'grunt-focus-chokidar' // help jitGrunt find grunt-focus-chokidar
+      }
+   }
+});
+```
+
 ### Options
 
 #### target.include
