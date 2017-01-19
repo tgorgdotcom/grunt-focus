@@ -1,7 +1,7 @@
 {
   "name": "grunt-focus-chokidar",
   "description": "Focus and run a subset of chokidar targets",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/tgorgdotcom/grunt-focus-chokidar",
   "author": {
     "name": "Thomas Gorgolione",
